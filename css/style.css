@@ -1,6 +1,48 @@
-.header-logo {
-    margin-right: 1169px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-left: 156px;
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+ul, ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    font-family: "Raleway", sans-serif; 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.header-logo .logo-part {
+        color: #2e2f42;
+    
+}
+.footer-logo .logo-part{
+    color: #f4f4fd;
+}
+.nav-link {
+        width: 261px;
+        height: 24px;
+}
+.nav-link:hover, 
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf;
+}
+.contacts {
+    font-style: normal;
+}
+.contacts-link {
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.footer-page {
+    background-color: #2e2f42;;
 }
