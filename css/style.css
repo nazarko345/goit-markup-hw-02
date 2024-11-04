@@ -2,6 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+
 }
 ul, ol {
     list-style-type: none;
@@ -44,5 +45,44 @@ a {
         color: #434455;
 }
 .footer-page {
-    background-color: #2e2f42;;
+    background-color: #2e2f42;
+    line-height: 1.5;
+}
+.paragraph-text {
+    color: #f4f4fd;
+    letter-spacing: 0.02em
+}
+.logo {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.team-part {
+    width: 1440px;
+    height: 732px;
+    background-color: #F4F4FD
+
+}
+.team-members {
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+}
+.first-team-member {
+
+}
+.second-team-member {
+
+}
+
+.third-team-member {
+border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+}
+.fourth {
+
 }
