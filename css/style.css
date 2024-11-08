@@ -2,16 +2,19 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-
 }
-ul, ol {
+
+ul,
+ol {
     list-style-type: none;
 }
+
 a {
     text-decoration: none;
 }
+
 .logo {
-    font-family: "Raleway", sans-serif; 
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -19,63 +22,72 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.header-logo .logo-part {
-        color: #2e2f42;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-    
-}
-.nav-item {
 
+.header-logo .logo-part {
+    color: #2e2f42;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
-.footer-logo .logo-part{
+
+.nav-item {
+    /* Без стилів */
+}
+
+.footer-logo .logo-part {
     color: #f4f4fd;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
 }
+
 .nav-link {
-        width: 261px;
-        height: 24px;
+    /* width: 261px; */
+    /* height: 24px; */
 }
-.nav-link:hover, 
+
+.nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
     color: #404bbf;
 }
+
 .contacts {
     font-style: normal;
 }
+
 .contacts-link {
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
+
 .footer-page {
     background-color: #2e2f42;
     line-height: 1.5;
 }
+
 .paragraph-text {
     color: #f4f4fd;
-    letter-spacing: 0.02em
-
+    letter-spacing: 0.02em;
 }
+
 .hero-section {
     background-color: #2E2F42;
 }
+
 .main-title {
-  font-size: 56px;  
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #fff;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #fff;
 }
-.button{
-    border-radius: 4px;
+
+.button {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -83,45 +95,35 @@ a {
     background-color: #4d5ae5;
     cursor: pointer;
 }
-button:hover, 
+
+button:hover,
 button:focus {
     background-color: #404BBF;
-    
 }
-.logo {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-}
-.team-part {
-    width: 1440px;
-    height: 732px;
-    background-color: #F4F4FD;
 
+.team-part {
+    background-color: #F4F4FD;
 }
-.team-members {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
-}
-.third-team-member {
-border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px
-}
+
 .portfolio-title {
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11111;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
+
 .portfolio-widget {
     border: 1px solid #e7e9fc;
-    width: 360px;
-    height: 420px;
     background: #fff;
+}
+
+.portfolio-line {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
