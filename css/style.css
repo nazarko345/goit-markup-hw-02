@@ -51,6 +51,31 @@ a {
 .paragraph-text {
     color: #f4f4fd;
     letter-spacing: 0.02em
+
+}
+.hero-section {
+    background-color: #2E2F42;
+}
+.main-title {
+  font-size: 56px;  
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.button{
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+}
+button:hover, 
+button:focus {
+    background-color: #404BBF;
+    
 }
 .logo {
         font-weight: 500;
@@ -61,7 +86,7 @@ a {
 .team-part {
     width: 1440px;
     height: 732px;
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
 
 }
 .team-members {
@@ -70,19 +95,9 @@ a {
     width: 264px;
     height: 380px;
 }
-.first-team-member {
-
-}
-.second-team-member {
-
-}
-
 .third-team-member {
 border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     width: 264px;
     height: 380px;
-}
-.fourth {
-
 }
