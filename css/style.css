@@ -21,10 +21,21 @@ a {
 }
 .header-logo .logo-part {
         color: #2e2f42;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
     
+}
+.nav-item {
+
 }
 .footer-logo .logo-part{
     color: #f4f4fd;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
 }
 .nav-link {
         width: 261px;
@@ -99,5 +110,18 @@ button:focus {
 border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     width: 264px;
-    height: 380px;
+    height: 380px
+}
+.portfolio-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.portfolio-widget {
+    border: 1px solid #e7e9fc;
+    width: 360px;
+    height: 420px;
+    background: #fff;
 }
