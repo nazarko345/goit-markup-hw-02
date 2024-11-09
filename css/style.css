@@ -30,10 +30,13 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
-
-.nav-item {
-    /* Без стилів */
+.header-logo {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
+
 
 .footer-logo .logo-part {
     color: #f4f4fd;
@@ -42,10 +45,12 @@ a {
     line-height: 1.16667;
     letter-spacing: 0.03em;
 }
-
 .nav-link {
-    /* width: 261px; */
-    /* height: 24px; */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .nav-link:hover,
@@ -126,4 +131,12 @@ button:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+.bs-headline {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+
 }
